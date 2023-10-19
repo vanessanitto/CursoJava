@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class Temperatura {
+public static void main(String[] args) {
+	// (ºF - 32) x 5 / 9.0 = ºC
+	
+	double f = 86;
+	double x = 32;
+	double divisor = 5 / 9.0;
+	double c = (f-x) * divisor;
+	
+	System.out.println(c + "ºC");
+}
+}
